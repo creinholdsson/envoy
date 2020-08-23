@@ -193,4 +193,4 @@ index dfffde4..23c4e3f 100755
  done
  
 -exec external/org_llvm_clang/bin/llvm-strip "${ARGS[@]}"
-+exec ${EXT_BUILD_ROOT:-.}/external/org_llvm_clang/bin/llvm-strip "$@"
++exec ${EXT_BUILD_ROOT:-.}/external/org_llvm_clang/bin/llvm-strip "${ARGS[@]}"
