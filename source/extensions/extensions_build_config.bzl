@@ -64,7 +64,7 @@ EXTENSIONS = {
     "envoy.filters.http.health_check":                  "//source/extensions/filters/http/health_check:config",
     "envoy.filters.http.ip_tagging":                    "//source/extensions/filters/http/ip_tagging:config",
     "envoy.filters.http.jwt_authn":                     "//source/extensions/filters/http/jwt_authn:config",
-    "envoy.filters.http.lua":                           "//source/extensions/filters/http/lua:config",
+    #"envoy.filters.http.lua":                           "//source/extensions/filters/http/lua:config",
     "envoy.filters.http.oauth2":                         "//source/extensions/filters/http/oauth2:config",
     "envoy.filters.http.on_demand":                     "//source/extensions/filters/http/on_demand:config",
     "envoy.filters.http.original_src":                  "//source/extensions/filters/http/original_src:config",
@@ -85,7 +85,7 @@ EXTENSIONS = {
     "envoy.filters.listener.original_src":              "//source/extensions/filters/listener/original_src:config",
     # NOTE: The proxy_protocol filter is implicitly loaded if proxy_protocol functionality is
     #       configured on the listener. Do not remove it in that case or configs will fail to load.
-    "envoy.filters.listener.proxy_protocol":            "//source/extensions/filters/listener/proxy_protocol:config",
+    #"envoy.filters.listener.proxy_protocol":            "//source/extensions/filters/listener/proxy_protocol:config",
     "envoy.filters.listener.tls_inspector":             "//source/extensions/filters/listener/tls_inspector:config",
 
     #
